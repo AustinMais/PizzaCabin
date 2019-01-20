@@ -13,6 +13,8 @@ namespace PizzaCabin1
         static void Main(string[] args)
         {
             string json;
+            Test WebServiceTest = new Test();
+            WebServiceTest.TestMe();
             using (WebClient wc = new WebClient())
             {
                 json = wc.DownloadString("http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc/schedule/2015-12-14");
