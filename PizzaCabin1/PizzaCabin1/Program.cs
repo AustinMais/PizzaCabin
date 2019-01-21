@@ -19,15 +19,9 @@ namespace PizzaCabin1
             {
                 json = wc.DownloadString("http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc/schedule/2015-12-14");
             }
+            //json = WebServiceTest.TestMe();
             Rootobject example = JsonConvert.DeserializeObject<Rootobject>(json);
-            for(int i = 0; i < example.ScheduleResult.Schedules.Length; i++)
-            {
-                Console.WriteLine(example.ScheduleResult.Schedules[i].Name);
-                for (int j = 0; j < example.ScheduleResult.Schedules[i].Projection.Length; j++)
-                {
-                    Console.WriteLine("  " + example.ScheduleResult.Schedules[i].Projection[j].Description + ": " + example.ScheduleResult.Schedules[i].Projection[j].minutes);
-                }
-            }
+            Console.WriteLine(example.ScheduleResult.Schedules[0].Projection[0].minutes);
             Console.ReadLine();
         }
     }

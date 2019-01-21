@@ -22,5 +22,15 @@ namespace PizzaCabin1.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?wsdl")]
+        public string PizzaCabin1_WebReference1_PizzaCabinInc {
+            get {
+                return ((string)(this["PizzaCabin1_WebReference1_PizzaCabinInc"]));
+            }
+        }
     }
 }

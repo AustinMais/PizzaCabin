@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="64940b45-da95-4ba4-9569-b231d8bb253f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6efac08c-444e-40cb-b971-2f6cc3d2ea7d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,10 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?singleWsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="PizzaCabinInc.wsdl" MetadataType="Wsdl" ID="6577e129-a6e9-416b-b65b-8c50bd0839fd" SourceId="1" SourceUrl="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?singleWsdl" />
+    <MetadataFile FileName="PizzaCabinInc.wsdl" MetadataType="Wsdl" ID="7033f81f-ccca-4c14-933c-3dfac4509efa" SourceId="1" SourceUrl="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?wsdl" />
+    <MetadataFile FileName="PizzaCabinInc.xsd" MetadataType="Schema" ID="c7e2464c-78d1-42bc-89d1-3a118937abd7" SourceId="1" SourceUrl="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?xsd=xsd0" />
+    <MetadataFile FileName="PizzaCabinInc1.xsd" MetadataType="Schema" ID="b5757db6-02f7-41d2-bdd4-32323daed29f" SourceId="1" SourceUrl="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?xsd=xsd1" />
+    <MetadataFile FileName="PizzaCabinInc2.xsd" MetadataType="Schema" ID="0e56b094-65b2-441b-89a9-472f22a6b51c" SourceId="1" SourceUrl="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

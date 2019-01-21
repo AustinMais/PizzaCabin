@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?wsdl" filename="PizzaCabinInc.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?xsd=xsd0" filename="PizzaCabinInc.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?xsd=xsd1" filename="PizzaCabinInc0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc?xsd=xsd2" filename="PizzaCabinInc1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>
