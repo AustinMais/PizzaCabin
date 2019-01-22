@@ -12,7 +12,6 @@ namespace PizzaCabin1
 {
     using System.Runtime.Serialization;
 
-
     public class Rootobject
     {
         public Scheduleresult ScheduleResult { get; set; }
