@@ -16,13 +16,12 @@ namespace PizzaCabin1
         static void Main(string[] args)
         {
             string json;
-            //Test WebServiceTest = new Test();
-            //WebServiceTest.TestMe();
+            //WebServiceCall WebServiceTest = new WebServiceCall();
             using (WebClient wc = new WebClient())
             {
                 json = wc.DownloadString("http://pizzacabininc.azurewebsites.net/PizzaCabinInc.svc/schedule/2015-12-14");
             }
-            //json = WebServiceTest.TestMe();
+            //json = WebServiceTest.ServiceCall();
             Rootobject rootobject = JsonConvert.DeserializeObject<Rootobject>(json);
             UpdateDB(rootobject);
             Console.ReadLine();

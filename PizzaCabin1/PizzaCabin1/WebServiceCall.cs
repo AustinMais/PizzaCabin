@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace PizzaCabin1
 {
-    class Test
+    class WebServiceCall
     {
-        public string TestMe()
+        public string CallService()
         {
             ServiceReference1.PizzaCabinIncClient client = new ServiceReference1.PizzaCabinIncClient("ScheduleResult");
             ServiceReference1.TeamSchedule teamSchedule = new ServiceReference1.TeamSchedule();
